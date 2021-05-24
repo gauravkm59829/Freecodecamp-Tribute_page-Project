@@ -1,0 +1,90 @@
+* {
+  margin : 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0.18rem;
+}
+#title{
+  text-align:center;
+  font-family: sans-serif;
+  font-size: 2.5rem;
+  color: #282828;
+  margin-bottom: 2rem;
+  margin-top:1.4rem;
+  padding-top: 4rem;
+  
+}
+
+body {
+  font-family:'Segoe UI',Verdana;
+  line-height:1.5rem;
+ 
+}
+#main
+ {
+  
+   background-color:#f3f3f3;
+   
+}
+.man{
+  text-align:center;
+  font-size: 1rem;
+}
+#img-div {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1.6rem;
+}
+#image {
+  max-width:1000px;
+  width:100%;
+  background-color: white;
+  display: block;
+} 
+#img-caption{
+  font-size: 1rem;
+  text-align: center;
+  background-color: white;
+  margin-bottom: 2rem;
+}
+#tribute-info{
+  max-width: 600px; 
+  margin: auto;
+  background-color: #eee;
+}
+#tribute-info>h2 {
+  text-align:center;
+  margin: 3rem auto;
+}
+#tribute-info ul li {
+  margin: 1.1rem 0;
+}
+#tribute-info ul{
+  margin: 2.5rem 0;
+  
+}
+.small{
+  margin-top: 3rem;
+  font-size: .99rem;
+    opacity: .8;
+}
+ .by {
+  margin-top: 1.2rem;
+  font-size: .99rem;
+    opacity: .8;
+   font-family: sans-serif;
+}
+.more{
+  font-size:1.2rem;
+  max-width: 1000px;
+  text-align: center;
+  color: #333;
+  margin-top: 3.4rem;
+  
+}
+
+@media (max-width: 998px){
+  html{
+    font-size: 55%;
+  }
+}
